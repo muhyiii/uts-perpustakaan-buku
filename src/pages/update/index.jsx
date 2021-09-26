@@ -237,7 +237,7 @@ export default function UpdateBuku() {
               name="cover"
               onChange={handelUpload}
             />
-            <p className="text-red-400">{error.judul_buku}</p>
+            <p className="text-red-400">{error.cover}</p>
             <div>
               <img className="h-48" src={imagePreview} alt="" />
             </div>
@@ -251,7 +251,7 @@ export default function UpdateBuku() {
               onBlur={handleChange}
               value={values.sinopsis}
             />
-            <p className="text-red-400">{error.judul_buku}</p>
+            <p className="text-red-400">{error.sinopsis}</p>
             <input
               type="text"
               className="p-3 rounded-lg w-full my-2"
@@ -262,7 +262,7 @@ export default function UpdateBuku() {
               onBlur={handleChange}
               value={values.nama_pengarang}
             />
-            <p className="text-red-400">{error.judul_buku}</p>
+            <p className="text-red-400">{error.nama_pengarang}</p>
             <input
               type="text"
               className="p-3 rounded-lg w-full my-2"
@@ -273,7 +273,7 @@ export default function UpdateBuku() {
               onBlur={handleChange}
               value={values.nama_penerbit_buku}
             />
-            <p className="text-red-400">{error.judul_buku}</p>
+            <p className="text-red-400">{error.nama_penerbit_buku}</p>
             <input
               type="text"
               className="p-3 rounded-lg w-full my-2"
@@ -284,7 +284,7 @@ export default function UpdateBuku() {
               onBlur={handleChange}
               value={values.tahun_terbit_buku}
             />
-            <p className="text-red-400">{error.judul_buku}</p>
+            <p className="text-red-400">{error.tahun_terbit_buku}</p>
             <input
               type="text"
               className="p-3 rounded-lg w-full my-2"
@@ -295,7 +295,7 @@ export default function UpdateBuku() {
               onBlur={handleChange}
               value={values.ketebalan_buku}
             />
-            <p className="text-red-400">{error.judul_buku}</p>
+            <p className="text-red-400">{error.ketebalan_buku}</p>
             <div className="py-3">
               <button
                 disabled={disableSubmit}
